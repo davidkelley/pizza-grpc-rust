@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package pizza;
+
+service PizzaRequests {
+    // store pizza choice
+    rpc StorePizza (Pizza) returns (Pizza);
+
+    // retrieve a pizza choice
+    rpc GetPizza (GetPizzaRequest) returns (Pizza);
+}
+
+message Pizza {
+    string id = 1;
+    string name = 2;
+}
+
+message GetPizzaRequest {
+    string id = 1;
+}
