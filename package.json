@@ -1,0 +1,38 @@
+{
+  "name": "grpc-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidkelley/pizza-grpc-rust.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidkelley/pizza-grpc-rust/issues"
+  },
+  "homepage": "https://github.com/davidkelley/pizza-grpc-rust#readme",
+  "devDependencies": {
+    "@aws-cdk/aws-certificatemanager": "^1.134.0",
+    "@aws-cdk/aws-dynamodb": "^1.134.0",
+    "@aws-cdk/aws-ec2": "^1.134.0",
+    "@aws-cdk/aws-ecr": "^1.134.0",
+    "@aws-cdk/aws-ecr-assets": "^1.134.0",
+    "@aws-cdk/aws-ecs": "^1.134.0",
+    "@aws-cdk/aws-ecs-patterns": "^1.134.0",
+    "@aws-cdk/aws-elasticloadbalancingv2": "^1.134.0",
+    "@aws-cdk/aws-route53": "^1.134.0",
+    "@aws-cdk/core": "^1.134.0",
+    "@types/node": "^16.11.10",
+    "aws-cdk": "^1.134.0",
+    "cdk-ecr-deployment": "0.0.81",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}

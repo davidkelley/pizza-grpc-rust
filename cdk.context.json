@@ -1,0 +1,16 @@
+{
+  "availability-zones:account=981013454255:region=eu-west-1": [
+    "eu-west-1a",
+    "eu-west-1b",
+    "eu-west-1c"
+  ],
+  "hosted-zone:account=168899497293:domainName=dev.getft.io:region=eu-west-1": {
+    "Id": "/hostedzone/Z2BJHJNCENL2QI",
+    "Name": "dev.getft.io."
+  },
+  "availability-zones:account=168899497293:region=eu-west-1": [
+    "eu-west-1a",
+    "eu-west-1b",
+    "eu-west-1c"
+  ]
+}
